@@ -1,0 +1,239 @@
+/*star header*/
+.cabecalho{
+
+}
+
+.itens{
+
+}
+
+.content{
+
+}
+
+.logotipo{
+
+}
+
+.logo{
+
+}
+/*end header*/
+
+
+/*start dash*/
+.top {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    background-color:  rgb(70, 142, 158);
+}
+
+.name , .busca {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameUser {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
+
+#search {
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+    padding: 0px 5px;
+}
+/*end dash*/
+
+.contentDash {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/*start content do menu*/
+.menu{
+    border:1px solid whitesmoke;
+    height: 80vh;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px 0px 10px;
+    background-color:  rgb(70, 142, 158);
+}
+.selection{
+
+}
+
+.button-menu{
+    border: none;
+}
+
+.pessoasFisica  {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.cadastros {
+    font-size: 13px;
+    color: ghostwhite;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-menu{
+    list-style: none;
+    font-size: 13px;
+    word-break: break-all;
+    letter-spacing: 0;
+    color: ghostwhite;
+}
+
+.lista-menu:hover{
+    background: transparent;
+}
+
+.conteudo-lista {
+    list-style: none;
+    font-size: 13px;
+    word-break: break-all;
+}
+
+.conteudo-lista-2 {
+    list-style: none;
+    font-size: 13px;
+    word-break: break-all;
+}
+
+.historico{
+    width: auto;
+    display: block;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 13px;
+    color: ghostwhite;
+}
+/*end content do menu*/
+
+/*star content dash*/
+.resumo{
+   
+}
+
+.resumo-mes{
+
+}
+
+.fonte-mes{
+    font-size:  20px;
+    margin: 50px;
+}
+
+.valores-dash{
+    display: flex;
+}
+
+.dash-resumo{
+    padding: 0;
+    margin: auto;
+}
+
+.conteudo-lista-3{
+    font-size: 15px;
+    list-style: none;
+}
+
+.lembrete{  
+    margin-top: 100px;
+    font-size: 25px;
+}
+/*end conteudo dash*/
+
+/*DESIGN DESKTOP*/
+@media screen and (min-width: 1024px) {
+    #head {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*start dash*/
+    .nameUser {
+        font-size: 30px;
+    }
+
+    #search {
+        height: 50px;
+        width: 60%;
+    }
+    /*end dash*/
+
+    /*start content do menu*/
+    .menu {
+        width: 360px;
+        height: 100vh;        
+    }
+
+    .selection {
+        display: none;
+    }    
+
+    .cadastros , .historico {
+        font-size: 25px;
+    }
+
+    .conteudo-lista , .conteudo-lista-2  {
+        font-size: 20px;
+    }
+    /*end content do menu*/
+
+    /*star content dash*/
+    .resumo {
+        width: 100%;
+    }
+
+    .fonte-mes {
+        font-size: 40px;
+    }
+    
+    .valores-dash {
+        height: 60vh;
+    }
+
+    .dash-resumo {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;    
+    }
+
+    .conteudo-lista-3 {
+        font-size: 30px;
+    }
+    /*end conteudo dash*/
+}
